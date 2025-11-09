@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Growth Partners Co. Banner</title>
+    <style>
+        /* This style block is for previewing in a browser. 
+        For email, the crucial style is the inline style on the image tag itself. 
+        */
+        body {
+            margin: 0;
+            padding: 20px;
+            text-align: center;
+        }
+        
+        /* Ensures the image is responsive and centered, which is vital for email */
+        .email-banner {
+            display: block; 
+            margin: 0 auto; 
+            max-width: 600px; /* Standard maximum email width */
+            width: 100%; 
+            height: auto; 
+            border: 0; /* Prevents unwanted borders in some email clients */
+        }
+    </style>
+</head>
+<body>
+    <!-- 
+    NOTE: When using this in an actual email, you MUST replace 'GrowthPartnersCo Logo.jpg' 
+    with the full public URL from your GitHub repository (like the raw content URL). 
+    A local file name will not work in an email client.
+    -->
+    <img 
+        src="GrowthPartnersCo Logo.jpg" 
+        alt="Growth Partners Co. Email Banner Logo" 
+        class="email-banner"
+    >
+</body>
+</html>
